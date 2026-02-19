@@ -7,17 +7,52 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>This is my header no banner</h1>
-    </header>
-    <section>
-        <h1>Welcome to my DOM</h1>
-        <ul>
-            <li>Shafayet</li>
-            <li>Bonobash</li>
-            <li>Jalali Set</li>
-        </ul>
-    </section>
+    <main>
+        <header>
+            <h1>This is my header no banner</h1>
+        </header>
+        <section>
+            <h1>Welcome to my DOM</h1>
+            <ul>
+                <li>Shafayet</li>
+                <li>Bonobash</li>
+                <li>Jalali Set</li>
+            </ul>
+        </section>
+        <section>
+            <h1 id="food-title">Food I love</h1>
+            <ul>
+                <li>Rice</li>
+                <li>Potato</li>
+                <li>Onion</li>
+                <li>Lentils</li>
+                <li>Garlic</li>
+                <li>Ginger</li>
+                <li>Flower</li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        const student = {
+            name : 'Abul Mia',
+            id: 121,
+            study: function (subject){
+                console.log('studying subject: ', subject);
+            }
+        }
+
+
+        // const liCollection = document.getElementsByTagName('li')
+        // console.log(liCollection)
+        // for(const li of liCollection)
+        //     console.log(li)
+
+        // const allHeadings = document.getElementsByTagName('h1')
+        // for(const heading of allHeadings)
+        //     console.log(heading.innerText)
+
+        
+    </script>
     <script src="./js/script.js"></script>
 </body>
 </html>
