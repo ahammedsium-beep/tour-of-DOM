@@ -5,3 +5,11 @@ h1{
 #food-title{
     color: green;
 }
+
+.section-card{
+    background-color: lightblue;
+    border: 3px solid gray;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 10px;
+}
