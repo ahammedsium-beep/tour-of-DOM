@@ -22,3 +22,10 @@ newH1.style.background = 'pink'
 newH1.style.padding = '15px'
 newH1.style.borderRadius = '13px'
 newH1.style.textAlign = 'center'
+
+// bazar e add korbo khabar arekta 
+
+const newFood = document.createElement('li')
+newFood.innerText = 'Lobon'
+const bazarList = document.getElementById('bazar-list')
+bazarList.appendChild(newFood)
